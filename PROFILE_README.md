@@ -1,27 +1,42 @@
 # Moula Raoul
 
-**Computational Scientist · Scientific Software Engineering · Interactive Simulations**
+**Junior Research Software Engineer**
 
-Based in Cameroon, I work at the intersection of mathematical modeling, scientific programming, interactive visualization and educational technology.
+*Mathematical Modeling · Research Software Engineering · Scientific Visualization*
 
-I am building reproducible tools and simulations to explore scientific processes, automate technical workflows and support science education.
+Based in Cameroon, I hold a **Bachelor's-level degree (Licence) in Mathematics and Computer Science, with a specialization in Scientific Computing**.
+
+I am building my professional experience through scientific programming, numerical modeling, reusable computational tools and interactive educational simulations.
+
+## Three complementary areas of development
+
+### Computational Scientist
+Understand natural or social phenomena, formulate assumptions, select mathematical models and interpret scientific results.
+
+### Research Software Engineer
+Turn models into reliable, reproducible, tested and documented software that can eventually be used by a scientific community.
+
+### Scientific Visualization Engineer
+Represent computational results through plots, animations, interactive visualizations and 3D environments.
+
+These are the **three connected competencies I am actively developing**, not a claim of holding three senior professional positions.
 
 ## Selected public projects
 
 | Project | Focus |
 | --- | --- |
-| [Atelier de simulations pédagogiques](https://github.com/MoulaRaoul/atelier-simulations-minesec) | Interactive 3D educational simulations, reusable JavaScript engine, offline packaging |
-| [Simulation and Modeling of Natural Processes](https://github.com/MoulaRaoul/simulation-modeling-natural-processes) | Scientific Python, numerical methods, simulation experiments and model verification |
+| [Atelier de simulations pédagogiques](https://github.com/MoulaRaoul/atelier-simulations-minesec) | Interactive 3D educational simulations, reusable JavaScript components and offline packaging |
+| [Simulation and Modeling of Natural Processes](https://github.com/MoulaRaoul/simulation-modeling-natural-processes) | Scientific Python, numerical methods, experimental verification and reproducible studies |
 
 ## Technologies and interests
 
-Python · JavaScript · Three.js · Blender/bpy · mathematical modeling · numerical simulation · scientific visualization · reproducible workflows
+Python · JavaScript · Three.js · Blender/bpy · Mathematical Modeling · Numerical Simulation · Testing · Scientific Visualization · Git/GitHub
 
-## How I work
+## My approach
 
-**Model → implement → verify → visualize → document.**
+**Understand → Model → Implement → Verify → Visualize → Document**
 
-I value transparent assumptions, reusable source code, numerical verification and clear documentation. My projects are works in progress: their repositories record both completed steps and remaining validation work.
+I aim to make assumptions explicit, numerical results checkable, and scientific software reusable. My repositories distinguish implemented features from future plans and outstanding validation work.
 
 ## Portfolio
 
@@ -29,4 +44,4 @@ I value transparent assumptions, reusable source code, numerical verification an
 
 ---
 
-*This README is a prepared draft. For GitHub to show it on the account profile, create a public repository named exactly `MoulaRaoul` under the `MoulaRaoul` account and copy this content to its root `README.md`.*
+*This file is prepared for the GitHub profile README. To display it on the profile, create the public repository `MoulaRaoul/MoulaRaoul` and copy this text into its root `README.md`.*
