@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio de Moula Raoul : programmation scientifique, modélisation mathématique, visualisation 3D et technologies éducatives.">
+  <meta name="description" content="Portfolio de Moula Raoul, Junior Research Software Engineer : science computationnelle, logiciels de recherche et visualisation scientifique.">
   <meta name="theme-color" content="#0b1220">
-  <title>Moula Raoul | Computational Scientist</title>
+  <title>Moula Raoul | Junior Research Software Engineer</title>
   <style>
     :root { color-scheme: dark; --bg:#0b1220; --panel:#111d31; --edge:#293850; --text:#edf5ff; --muted:#b1c0d3; --accent:#84dcd1; --blue:#9bbcff; }
     * { box-sizing:border-box; }
@@ -37,26 +37,31 @@
     article h3 { margin:4px 0 12px; font-size:1.22rem; }
     article p { color:var(--muted); margin:0 0 18px; }
     .tag { color:var(--accent); font-size:.83rem; font-weight:700; letter-spacing:.03em; }
+    .path-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .path-grid article { min-width:0; }
+    .path-grid article p { margin-bottom:0; }
     .chips { display:flex; flex-wrap:wrap; gap:9px; padding:0; list-style:none; }
     .chips li { border:1px solid var(--edge); padding:5px 12px; border-radius:100px; color:var(--muted); }
     .note { border-left:3px solid var(--accent); padding-left:19px; color:var(--muted); max-width:760px; }
     footer { color:var(--muted); border-top:1px solid var(--edge); margin-top:35px; padding:28px 0 40px; font-size:.92rem; }
+    @media (max-width:850px) { .path-grid {grid-template-columns:1fr;} }
     @media (max-width:670px) { .grid {grid-template-columns:1fr;} .top {align-items:flex-start;} nav {gap:11px;} article {padding:20px;} }
     @media (prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} }
   </style>
 </head>
 <body>
   <header class="wrap top">
-    <a class="mark" href="#accueil">Moula Raoul<span aria-hidden="true"> / </span>Computational Science</a>
+    <a class="mark" href="#accueil">Moula Raoul<span aria-hidden="true"> / </span>Research Software Engineering</a>
     <nav aria-label="Navigation principale">
       <a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#demarche">Démarche</a><a href="#contact">Contact</a>
     </nav>
   </header>
   <main id="accueil" class="wrap">
     <div class="hero">
-      <div class="eyebrow">Cameroon · Scientific computing · Educational technology</div>
-      <h1>Mathématiques, logiciels et <span>simulations interactives.</span></h1>
-      <p class="intro">Je suis Moula Raoul, passionné par la science computationnelle. Je développe des outils pour explorer des modèles mathématiques, automatiser des pipelines 3D et rendre les concepts scientifiques plus accessibles.</p>
+      <div class="eyebrow">Cameroon · Junior Research Software Engineer</div>
+      <h1>Junior Research <span>Software Engineer.</span></h1>
+      <p class="intro">Titulaire d'une licence en Mathématiques-Informatique, option calcul scientifique, je développe progressivement des compétences à l'intersection de la modélisation mathématique, de l'ingénierie logicielle scientifique et de la visualisation interactive.</p>
+      <p class="intro">Mon objectif : comprendre un phénomène, construire un modèle, produire un calcul vérifiable et rendre ses résultats intelligibles.</p>
       <div class="actions">
         <a class="btn primary" href="#projets">Explorer mes projets</a>
         <a class="btn" href="https://github.com/MoulaRaoul" rel="me">Voir mon GitHub ↗</a>
@@ -81,8 +86,26 @@
       </div>
     </section>
     <section id="competences" aria-labelledby="titre-competences">
-      <h2 id="titre-competences">Domaines de travail</h2>
-      <p class="sub">À l'intersection des mathématiques appliquées, du développement logiciel et de la création numérique.</p>
+      <h2 id="titre-competences">Trois domaines complémentaires</h2>
+      <p class="sub">Le titre de Junior Research Software Engineer décrit mon positionnement actuel. Les trois domaines ci-dessous constituent le parcours professionnel et scientifique que je construis à travers mes projets.</p>
+      <div class="path-grid">
+        <article>
+          <div class="tag">MODÉLISATION ET ANALYSE</div>
+          <h3>Computational Scientist</h3>
+          <p>Comprendre un phénomène naturel ou social, établir des hypothèses, choisir des modèles mathématiques et interpréter des résultats scientifiques.</p>
+        </article>
+        <article>
+          <div class="tag">LOGICIELS SCIENTIFIQUES</div>
+          <h3>Research Software Engineer</h3>
+          <p>Transformer ces modèles en logiciels fiables, reproductibles, testés, documentés et éventuellement utilisables par une communauté scientifique.</p>
+        </article>
+        <article>
+          <div class="tag">REPRÉSENTATION DES RÉSULTATS</div>
+          <h3>Scientific Visualization Engineer</h3>
+          <p>Représenter les résultats de calcul sous forme de graphiques, animations, visualisations interactives ou environnements 3D.</p>
+        </article>
+      </div>
+      <h2 style="margin-top:40px">Technologies et champs d'étude</h2>
       <ul class="chips">
         <li>Python</li><li>JavaScript</li><li>Three.js</li><li>Blender / bpy</li>
         <li>Modélisation mathématique</li><li>Simulation numérique</li><li>Visualisation scientifique</li>
