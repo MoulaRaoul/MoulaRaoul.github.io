@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio de Moula Raoul, Junior Research Software Engineer : science computationnelle, logiciels de recherche et visualisation scientifique.">
+  <meta name="description" content="Portfolio de Moula Raoul, Junior Research Software Engineer : modèles numériques vérifiés, Python, tests automatiques et simulations pédagogiques interactives.">
   <meta name="theme-color" content="#0b1220">
   <title>Moula Raoul | Junior Research Software Engineer</title>
   <style>
@@ -24,6 +24,7 @@
     .eyebrow { color:var(--accent); font-size:.83rem; text-transform:uppercase; letter-spacing:.16em; font-weight:700; }
     h1 { font-size:clamp(2.7rem,7vw,5.5rem); line-height:1.07; letter-spacing:-.05em; margin:.3em 0; max-width:950px; }
     h1 span { color:var(--blue); }
+    .role { color:var(--accent); font-weight:700; margin:18px 0 4px; }
     .intro { color:var(--muted); font-size:clamp(1.07rem,2.5vw,1.35rem); max-width:780px; }
     .actions { display:flex; flex-wrap:wrap; gap:13px; margin-top:30px; }
     .btn { text-decoration:none; font-weight:700; border-radius:9px; padding:11px 19px; border:1px solid var(--edge); color:var(--text); }
@@ -40,6 +41,10 @@
     .path-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
     .path-grid article { min-width:0; }
     .path-grid article p { margin-bottom:0; }
+    .chart-figure { margin:20px 0 6px; border:1px solid var(--edge); border-radius:15px; overflow:hidden; background:var(--panel); }
+    .chart-figure img { display:block; width:100%; height:auto; }
+    .chart-figure figcaption { color:var(--muted); padding:10px 15px 14px; font-size:.86rem; }
+    .small-print { color:var(--muted); font-size:.86rem; }
     .chips { display:flex; flex-wrap:wrap; gap:9px; padding:0; list-style:none; }
     .chips li { border:1px solid var(--edge); padding:5px 12px; border-radius:100px; color:var(--muted); }
     .note { border-left:3px solid var(--accent); padding-left:19px; color:var(--muted); max-width:760px; }
@@ -53,15 +58,15 @@
   <header class="wrap top">
     <a class="mark" href="#accueil">Moula Raoul<span aria-hidden="true"> / </span>Research Software Engineering</a>
     <nav aria-label="Navigation principale">
-      <a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#demarche">Démarche</a><a href="#contact">Contact</a>
+      <a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#demarche">Démarche</a><a href="#contact">Contact</a><a href="en.html" lang="en" hreflang="en" aria-label="English version">EN</a>
     </nav>
   </header>
   <main id="accueil" class="wrap">
     <div class="hero">
-      <div class="eyebrow">Cameroon · Junior Research Software Engineer</div>
-      <h1>Junior Research <span>Software Engineer.</span></h1>
-      <p class="intro">Titulaire d'une licence en Mathématiques-Informatique, option calcul scientifique, je développe progressivement des compétences à l'intersection de la modélisation mathématique, de l'ingénierie logicielle scientifique et de la visualisation interactive.</p>
-      <p class="intro">Mon objectif : comprendre un phénomène, construire un modèle, produire un calcul vérifiable et rendre ses résultats intelligibles.</p>
+      <div class="eyebrow">Cameroun · Licence Mathématiques-Informatique · Calcul scientifique</div>
+      <p class="role">Junior Research Software Engineer</p>
+      <h1>Du modèle mathématique au <span>logiciel scientifique vérifiable.</span></h1>
+      <p class="intro">Je développe des expériences numériques reproductibles, des logiciels de simulation et des visualisations scientifiques. Mon objectif est de relier la rigueur du calcul à des outils utiles, testables et compréhensibles.</p>
       <div class="actions">
         <a class="btn primary" href="#projets">Explorer mes projets</a>
         <a class="btn" href="https://github.com/MoulaRaoul" rel="me">Voir mon GitHub ↗</a>
@@ -72,44 +77,50 @@
       <p class="sub">Une sélection de dépôts publics. Les projets évoluent et leur documentation précise l'état des fonctionnalités et des validations.</p>
       <div class="grid">
         <article>
-          <div class="tag">01 / 3D · EDTECH · JAVASCRIPT</div>
-          <h3>Atelier de simulations pédagogiques</h3>
-          <p>Bibliothèque et moteur communs pour réaliser des expériences interactives de mathématiques et sciences, avec un pipeline de distribution hors connexion.</p>
-          <a href="https://github.com/MoulaRaoul/atelier-simulations-minesec">Explorer le code et la documentation ↗</a>
+          <div class="tag">01 / PYTHON · ANALYSE NUMÉRIQUE · TESTS</div>
+          <h3>Simulation and Modeling of Natural Processes</h3>
+          <p>Expérience reproductible sur la croissance logistique : solution analytique de référence, méthodes d'Euler et de Runge-Kutta RK4, étude du raffinement du pas de temps, <strong>8 tests unitaires</strong> et <strong>intégration continue GitHub Actions</strong>.</p>
+          <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/tree/main/practicals/logistic_growth">Voir l'expérience et son code ↗</a>
+          <p class="small-print"><a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/actions">Consulter les tests automatisés ↗</a></p>
         </article>
         <article>
-          <div class="tag">02 / SCIENTIFIC PYTHON · NUMERICAL METHODS</div>
-          <h3>Simulation and Modeling of Natural Processes</h3>
-          <p>Carnet de progression consacré à la modélisation, aux expériences computationnelles reproductibles et à la vérification numérique.</p>
-          <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes">Explorer le dépôt ↗</a>
+          <div class="tag">02 / JAVASCRIPT · THREE.JS · BLENDER/PYTHON</div>
+          <h3>Atelier de simulations pédagogiques</h3>
+          <p>Projet doté d'un moteur Three.js réutilisable, de simulations pédagogiques, de scripts Blender/bpy de génération paramétrique, d'un contrôle de fichiers GLB et d'un générateur de livrables HTML hors connexion. Les essais sur certains appareils restent à compléter.</p>
+          <a href="https://github.com/MoulaRaoul/atelier-simulations-minesec">Examiner les composants et le code ↗</a>
+          <p class="small-print">Présentation sur un portfolio personnel : elle ne constitue pas un site officiel du MINESEC et ne préjuge pas du statut administratif du projet.</p>
         </article>
       </div>
+      <figure class="chart-figure">
+        <img src="assets/logistic-convergence.svg" width="780" height="475" loading="lazy" alt="Comparaison logarithmique de l'erreur numérique du modèle logistique : Euler présente une convergence proche de l'ordre 1 et RK4 de l'ordre 4 lorsque le pas de temps diminue.">
+        <figcaption>Expérience 01 — Erreur numérique à T = 5. Les valeurs sont calculées à partir du modèle publié ; elles illustrent la vérification numérique, pas une validation sur des observations réelles.</figcaption>
+      </figure>
     </section>
     <section id="competences" aria-labelledby="titre-competences">
       <h2 id="titre-competences">Trois domaines complémentaires</h2>
-      <p class="sub">Le titre de Junior Research Software Engineer décrit mon positionnement actuel. Les trois domaines ci-dessous constituent le parcours professionnel et scientifique que je construis à travers mes projets.</p>
+      <p class="sub">Trois compétences complémentaires, développées progressivement à travers des preuves concrètes : modéliser, programmer et rendre les résultats intelligibles.</p>
       <div class="path-grid">
         <article>
           <div class="tag">MODÉLISATION ET ANALYSE</div>
           <h3>Computational Scientist</h3>
-          <p>Comprendre un phénomène naturel ou social, établir des hypothèses, choisir des modèles mathématiques et interpréter des résultats scientifiques.</p>
+          <p>Je pars d'un phénomène et de ses hypothèses pour construire un modèle interprétable. Exemple : <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/tree/main/practicals/logistic_growth">croissance logistique et solution analytique</a>.</p>
         </article>
         <article>
           <div class="tag">LOGICIELS SCIENTIFIQUES</div>
           <h3>Research Software Engineer</h3>
-          <p>Transformer ces modèles en logiciels fiables, reproductibles, testés, documentés et éventuellement utilisables par une communauté scientifique.</p>
+          <p>Je transforme le modèle en programme contrôlable par d'autres. Exemple : <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/blob/main/practicals/logistic_growth/test_model.py">8 tests unitaires</a> et <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/blob/main/.github/workflows/scientific-python.yml">GitHub Actions</a>.</p>
         </article>
         <article>
           <div class="tag">REPRÉSENTATION DES RÉSULTATS</div>
           <h3>Scientific Visualization Engineer</h3>
-          <p>Représenter les résultats de calcul sous forme de graphiques, animations, visualisations interactives ou environnements 3D.</p>
+          <p>Je travaille à rendre les résultats lisibles par des courbes et des interfaces. Exemple : <a href="#projets">graphique de convergence</a> et <a href="https://github.com/MoulaRaoul/atelier-simulations-minesec">visualisations interactives 3D</a>. Ce domaine reste en développement.</p>
         </article>
       </div>
       <h2 style="margin-top:40px">Technologies et champs d'étude</h2>
       <ul class="chips">
-        <li>Python</li><li>JavaScript</li><li>Three.js</li><li>Blender / bpy</li>
-        <li>Modélisation mathématique</li><li>Simulation numérique</li><li>Visualisation scientifique</li>
-        <li>Automatisation</li><li>Technologies éducatives</li><li>Git / GitHub</li>
+        <li>Python</li><li>unittest</li><li>GitHub Actions</li><li>JavaScript</li><li>Three.js</li><li>Blender / bpy</li>
+        <li>Analyse numérique</li><li>Modélisation mathématique</li><li>Visualisation interactive</li>
+        <li>Automatisation</li><li>Git / GitHub</li>
       </ul>
     </section>
     <section id="demarche" aria-labelledby="titre-demarche">
