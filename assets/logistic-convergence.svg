@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 475" role="img" aria-labelledby="title desc">
+<title id="title">Logistic model numerical errors: Euler vs RK4</title>
+<desc id="desc">Numerical absolute error at T=5 as time step h decreases from 0.5 to 0.0625. Euler converges approximately to first order, RK4 approximately fourth order. Data use N0 10, r 0.8, K 100 and exact logistic solution.</desc>
+<rect x="0" y="0" width="780" height="475" rx="16" fill="#111d31"/>
+<text x="44" y="34" fill="#edf5ff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Logistic growth — error vs. time step</text>
+<text x="44" y="57" fill="#b9c9dc" font-family="Arial, sans-serif" font-size="13">Absolute error at T = 5 · N₀ = 10 · r = 0.8 · K = 100</text>
+<g font-family="Arial, sans-serif">
+<line x1="124" y1="73.0" x2="652" y2="73.0" stroke="#334661" stroke-width="1"/><text x="112" y="77.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁰</text>
+<line x1="124" y1="119.0" x2="652" y2="119.0" stroke="#334661" stroke-width="1"/><text x="112" y="123.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻¹</text>
+<line x1="124" y1="165.0" x2="652" y2="165.0" stroke="#334661" stroke-width="1"/><text x="112" y="169.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻²</text>
+<line x1="124" y1="211.0" x2="652" y2="211.0" stroke="#334661" stroke-width="1"/><text x="112" y="215.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻³</text>
+<line x1="124" y1="257.0" x2="652" y2="257.0" stroke="#334661" stroke-width="1"/><text x="112" y="261.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻⁴</text>
+<line x1="124" y1="303.0" x2="652" y2="303.0" stroke="#334661" stroke-width="1"/><text x="112" y="307.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻⁵</text>
+<line x1="124" y1="349.0" x2="652" y2="349.0" stroke="#334661" stroke-width="1"/><text x="112" y="353.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻⁶</text>
+<line x1="124" y1="395.0" x2="652" y2="395.0" stroke="#334661" stroke-width="1"/><text x="112" y="399.0" text-anchor="end" fill="#b9c9dc" font-size="14">10⁻⁷</text>
+<line x1="124" y1="73" x2="124" y2="395" stroke="#b9c9dc" stroke-width="1.5"/>
+<line x1="124" y1="395" x2="652" y2="395" stroke="#b9c9dc" stroke-width="1.5"/>
+<line x1="124" y1="395" x2="124" y2="402" stroke="#b9c9dc"/><text x="124" y="425" text-anchor="middle" font-size="14" fill="#b9c9dc">0.5</text><line x1="300" y1="395" x2="300" y2="402" stroke="#b9c9dc"/><text x="300" y="425" text-anchor="middle" font-size="14" fill="#b9c9dc">0.25</text><line x1="476" y1="395" x2="476" y2="402" stroke="#b9c9dc"/><text x="476" y="425" text-anchor="middle" font-size="14" fill="#b9c9dc">0.125</text><line x1="652" y1="395" x2="652" y2="402" stroke="#b9c9dc"/><text x="652" y="425" text-anchor="middle" font-size="14" fill="#b9c9dc">0.0625</text>
+<path d="M124.0 73.2 L300.0 90.2 L476.0 105.6 L652.0 120.1" fill="none" stroke="#84dcd1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M124.0 193.4 L300.0 248.4 L476.0 303.6 L652.0 358.8" fill="none" stroke="#9bbcff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="124" cy="73.18" r="5" fill="#84dcd1"/><circle cx="300" cy="90.21" r="5" fill="#84dcd1"/><circle cx="476" cy="105.56" r="5" fill="#84dcd1"/><circle cx="652" cy="120.14" r="5" fill="#84dcd1"/><circle cx="124" cy="193.44" r="5" fill="#9bbcff"/><circle cx="300" cy="248.42" r="5" fill="#9bbcff"/><circle cx="476" cy="303.58" r="5" fill="#9bbcff"/><circle cx="652" cy="358.84" r="5" fill="#9bbcff"/>
+<text x="390" y="458" font-size="14" fill="#b9c9dc" text-anchor="middle">Time step h — decreasing →</text>
+<text x="32" y="240" font-size="14" fill="#b9c9dc" text-anchor="middle" transform="rotate(-90, 32, 240)">Absolute error (logarithmic scale)</text>
+<line x1="507" y1="84" x2="538" y2="84" stroke="#84dcd1" stroke-width="3.5"/><text x="547" y="89" font-size="14" fill="#edf5ff">Euler (≈ order 1)</text>
+<line x1="507" y1="108" x2="538" y2="108" stroke="#9bbcff" stroke-width="3.5"/><text x="547" y="113" font-size="14" fill="#edf5ff">RK4 (≈ order 4)</text>
+</g>
+</svg>
