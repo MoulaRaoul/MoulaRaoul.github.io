@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Moula Raoul, Junior Research Software Engineer in Cameroon: verified numerical experiments, Python, automated testing, and interactive scientific simulations.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Moula Raoul | Junior Research Software Engineer</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#111d31; --edge:#293850; --text:#edf5ff; --muted:#b1c0d3; --accent:#84dcd1; --blue:#9bbcff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--text);
+      background:radial-gradient(circle at 82% 0%, #1a3953 0,transparent 35rem),var(--bg); }
+    a { color:var(--accent); }
+    a:hover { color:#baf7ee; }
+    a:focus-visible { outline:3px solid #fff; outline-offset:4px; }
+    .wrap { width:min(1050px,calc(100% - 40px)); margin-inline:auto; }
+    .top { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding:25px 0; border-bottom:1px solid var(--edge); }
+    .mark { color:var(--text); text-decoration:none; font-weight:750; letter-spacing:.03em; }
+    nav { display:flex; gap:20px; flex-wrap:wrap; }
+    nav a { color:var(--muted); text-decoration:none; }
+    .hero { padding:clamp(65px,10vw,125px) 0 68px; }
+    .eyebrow { color:var(--accent); font-size:.83rem; text-transform:uppercase; letter-spacing:.16em; font-weight:700; }
+    h1 { font-size:clamp(2.7rem,7vw,5.5rem); line-height:1.07; letter-spacing:-.05em; margin:.3em 0; max-width:950px; }
+    h1 span { color:var(--blue); }
+    .role { color:var(--accent); font-weight:700; margin:18px 0 4px; }
+    .intro { color:var(--muted); font-size:clamp(1.07rem,2.5vw,1.35rem); max-width:780px; }
+    .actions { display:flex; flex-wrap:wrap; gap:13px; margin-top:30px; }
+    .btn { text-decoration:none; font-weight:700; border-radius:9px; padding:11px 19px; border:1px solid var(--edge); color:var(--text); }
+    .btn.primary { background:var(--accent); border-color:var(--accent); color:#071523; }
+    .btn.primary:hover { background:#baf7ee; }
+    section { padding:38px 0 45px; }
+    h2 { font-size:clamp(1.6rem,3.5vw,2.25rem); letter-spacing:-.025em; margin:0 0 12px; }
+    .sub { margin:0 0 25px; color:var(--muted); max-width:700px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    article { padding:25px; border-radius:15px; border:1px solid var(--edge); background:linear-gradient(145deg,#15223a,var(--panel)); }
+    article h3 { margin:4px 0 12px; font-size:1.22rem; }
+    article p { color:var(--muted); margin:0 0 18px; }
+    .tag { color:var(--accent); font-size:.83rem; font-weight:700; letter-spacing:.03em; }
+    .path-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .path-grid article { min-width:0; }
+    .path-grid article p { margin-bottom:0; }
+    .chart-figure { margin:20px 0 6px; border:1px solid var(--edge); border-radius:15px; overflow:hidden; background:var(--panel); }
+    .chart-figure img { display:block; width:100%; height:auto; }
+    .chart-figure figcaption { color:var(--muted); padding:10px 15px 14px; font-size:.86rem; }
+    .small-print { color:var(--muted); font-size:.86rem; }
+    .chips { display:flex; flex-wrap:wrap; gap:9px; padding:0; list-style:none; }
+    .chips li { border:1px solid var(--edge); padding:5px 12px; border-radius:100px; color:var(--muted); }
+    .note { border-left:3px solid var(--accent); padding-left:19px; color:var(--muted); max-width:760px; }
+    footer { color:var(--muted); border-top:1px solid var(--edge); margin-top:35px; padding:28px 0 40px; font-size:.92rem; }
+    @media (max-width:850px) { .path-grid {grid-template-columns:1fr;} }
+    @media (max-width:670px) { .grid {grid-template-columns:1fr;} .top {align-items:flex-start;} nav {gap:11px;} article {padding:20px;} }
+    @media (prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} }
+  </style>
+</head>
+<body>
+  <header class="wrap top">
+    <a class="mark" href="#home">Moula Raoul<span aria-hidden="true"> / </span>Research Software Engineering</a>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Projects</a><a href="#focus">Areas of focus</a><a href="#approach">Approach</a><a href="#contact">Contact</a><a href="index.html" lang="fr" hreflang="fr" aria-label="Version française">FR</a>
+    </nav>
+  </header>
+  <main id="home" class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Cameroon · Mathematics and Computer Science degree · Scientific Computing</div>
+      <p class="role">Junior Research Software Engineer</p>
+      <h1>From mathematical models to <span>verifiable scientific software.</span></h1>
+      <p class="intro">I build reproducible numerical experiments, simulation software, and scientific visualizations. My aim is to connect computational rigor with tools that others can test, understand, and reuse.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore my projects</a>
+        <a class="btn" href="https://github.com/MoulaRaoul" rel="me">View my GitHub ↗</a>
+      </div>
+    </div>
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected projects</h2>
+      <p class="sub">Public code with concrete implementation evidence. Open challenges and limitations are documented in the repositories.</p>
+      <div class="grid">
+        <article>
+          <div class="tag">01 / PYTHON · NUMERICAL METHODS · TESTING</div>
+          <h3>Simulation and Modeling of Natural Processes</h3>
+          <p>Reproducible logistic-growth experiment with an analytical reference solution, Euler and RK4 numerical solvers, timestep-refinement study, <strong>8 unit tests</strong>, and <strong>GitHub Actions continuous integration</strong>.</p>
+          <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/tree/main/practicals/logistic_growth">Explore the experiment and source code ↗</a>
+          <p class="small-print"><a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/actions">See automated checks ↗</a></p>
+        </article>
+        <article>
+          <div class="tag">02 / JAVASCRIPT · THREE.JS · BLENDER/PYTHON</div>
+          <h3>Educational Simulation Workshop</h3>
+          <p>A reusable Three.js rendering engine, interactive educational simulations, Blender/bpy parametric generation scripts, GLB asset validation, and an offline HTML packaging tool. Additional real-device testing is still needed.</p>
+          <a href="https://github.com/MoulaRaoul/atelier-simulations-minesec">Explore the implementation ↗</a>
+          <p class="small-print">This is a personal portfolio, not an official MINESEC website; it does not establish the project's institutional status.</p>
+        </article>
+      </div>
+      <figure class="chart-figure">
+        <img src="assets/logistic-convergence.svg" width="780" height="475" loading="lazy" alt="Logarithmic comparison of the logistic model's numerical errors: Euler converges near order one and RK4 near order four as the timestep shrinks.">
+        <figcaption>Experiment 01 — Numerical absolute error at T = 5. These computed values illustrate numerical verification, not empirical validation against real population data.</figcaption>
+      </figure>
+    </section>
+    <section id="focus" aria-labelledby="focus-title">
+      <h2 id="focus-title">Three connected areas of development</h2>
+      <p class="sub">I am developing these competencies through projects rather than claiming three established senior professional titles.</p>
+      <div class="path-grid">
+        <article>
+          <div class="tag">MODELING AND ANALYSIS</div>
+          <h3>Computational Scientist</h3>
+          <p>Turning a scientific question and explicit assumptions into an interpretable mathematical model. Evidence: <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/tree/main/practicals/logistic_growth">the logistic growth model and analytical solution</a>.</p>
+        </article>
+        <article>
+          <div class="tag">RESEARCH SOFTWARE</div>
+          <h3>Research Software Engineer</h3>
+          <p>Writing reproducible, documented and verifiable computational software. Evidence: <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/blob/main/practicals/logistic_growth/test_model.py">unit tests</a> and <a href="https://github.com/MoulaRaoul/simulation-modeling-natural-processes/blob/main/.github/workflows/scientific-python.yml">continuous integration</a>.</p>
+        </article>
+        <article>
+          <div class="tag">SCIENTIFIC COMMUNICATION</div>
+          <h3>Scientific Visualization Engineer</h3>
+          <p>Making computational results understandable through plots and interactive graphics. Evidence: <a href="#projects">the numerical error chart</a> and <a href="https://github.com/MoulaRaoul/atelier-simulations-minesec">3D interactive educational visualizations</a>. This focus is still growing.</p>
+        </article>
+      </div>
+      <h2 style="margin-top:40px">Tools and technical focus</h2>
+      <ul class="chips">
+        <li>Python</li><li>unittest</li><li>GitHub Actions</li><li>JavaScript</li><li>Three.js</li><li>Blender / bpy</li>
+        <li>Numerical analysis</li><li>Mathematical modeling</li><li>Interactive visualization</li><li>Automation</li><li>Git / GitHub</li>
+      </ul>
+    </section>
+    <section id="approach" aria-labelledby="approach-title">
+      <h2 id="approach-title">How I work</h2>
+      <p class="note">Understand the phenomenon, state assumptions, formulate a model, implement a numerical method, verify its behavior, visualize the results, and document limitations. The objective is useful, inspectable and reusable scientific software.</p>
+    </section>
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Get in touch</h2>
+      <p class="sub">See my public work, discuss a project, or contact me through my GitHub profile.</p>
+      <a class="btn primary" href="https://github.com/MoulaRaoul">View GitHub profile ↗</a>
+    </section>
+  </main>
+  <footer class="wrap">© 2026 Moula Raoul · Personal portfolio. The educational projects presented here do not constitute an official MINESEC website or an institutional endorsement.</footer>
+</body>
+</html>
